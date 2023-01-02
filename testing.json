@@ -1,0 +1,68 @@
+{
+    "fullPath": "/admin/dashboard",
+    "path": "/admin/dashboard",
+    "query": {},
+    "hash": "",
+    "name": "dashboard",
+    "params": {},
+    "matched": [
+        {
+            "path": "/admin/dashboard",
+            "name": "dashboard",
+            "meta": {},
+            "props": {
+                "default": false
+            },
+            "children": [],
+            "instances": {},
+            "leaveGuards": {
+                "Set(0)": []
+            },
+            "updateGuards": {
+                "Set(0)": []
+            },
+            "enterCallbacks": {},
+            "components": {
+                "default": {
+                    "name": "Dashboard",
+                    "components": {
+                        "TheDashboard": {
+                            "name": "TheDashboard",
+                            "__hmrId": "56da4d33",
+                            "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/components/DashboardComponents/TheDashboard.vue"
+                        },
+                        "TheCustomers": {
+                            "name": "TheCustomers",
+                            "__hmrId": "b921adf8",
+                            "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/components/DashboardComponents/TheCustomers.vue"
+                        },
+                        "TheCategory": {
+                            "name": "TheCategory",
+                            "__hmrId": "88912026",
+                            "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/components/DashboardComponents/TheCategory.vue"
+                        },
+                        "TheProducts": {
+                            "name": "TheProducts",
+                            "components": {
+                                "SelectComponent": {
+                                    "watch": {},
+                                    "__hmrId": "741227c6",
+                                    "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/components/Shared/SelectComponent.vue"
+                                }
+                            },
+                            "methods": {},
+                            "__hmrId": "acb36af8",
+                            "__scopeId": "data-v-acb36af8",
+                            "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/components/DashboardComponents/TheProducts.vue"
+                        }
+                    },
+                    "methods": {},
+                    "__hmrId": "e4f19165",
+                    "__file": "C:/Users/Sai Win Oo/Desktop/e-com/frontend/src/views/Dashboard/Dashboard.vue"
+                }
+            }
+        }
+    ],
+    "meta": {},
+    "href": "/admin/dashboard"
+}
