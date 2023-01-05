@@ -75,7 +75,7 @@ class OrderForDashboardController extends Controller
         $order->status = $request->status;
         $order->update();
         if($request->status === 'shipped'){
-            Mail::to(Auth::user()->email)->send(new OrderShippedMail());
+            Mail::to($order->user()->email)->send(new OrderShippedMail());
         }
         return response()->json([
             'success' => true,
